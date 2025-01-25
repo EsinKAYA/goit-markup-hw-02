@@ -8,6 +8,7 @@ h1 {
     font-size: 56px;
     letter-spacing: 2%;
     line-height: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -15,6 +16,7 @@ h2 {
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 2%;
+    text-align: center;
 }
 
 h3 {
@@ -69,6 +71,7 @@ ul {
     background-color: #4d5ae5;
     height: 56px;
     width: 169px;
+    text-align: center;
 }
 .s2 {
     font-weight: regular;
@@ -98,6 +101,7 @@ ul {
 .s3 > h2{
     height: 162px;
     width: 380px;
+    text-align: center;
 }
 .s3>li{
     width: 264px;
@@ -110,6 +114,7 @@ ul {
 .s4>h2{
     width: 218px;
     height: 40px;
+    text-align: center;
 }
 .row1,
 .row2 {
@@ -129,4 +134,8 @@ footer {
   width: 1440px;
   height: 312px;
   color: #f4f4fd;
+}
+footer>div{
+    width:264px;
+        height: 112px;
 }
