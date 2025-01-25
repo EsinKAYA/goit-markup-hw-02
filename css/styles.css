@@ -1,7 +1,132 @@
+* {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Roboto', cursive;
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+
 h2 {
-    color: blue;
+    font-family: 'Roboto', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
 }
+
 h3 {
-    color: purple;
+    font-family: 'Roboto', cursive;
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
 }
-ooop
+
+body {
+    font-family: 'Roboto', cursive;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    width: 1440px;
+    height: 3300px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 1440px;
+    height: 72px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.s1 {
+    width: 1440px;
+    height: 600px;
+    background-color: #2e2f42;
+    color: white;
+}
+.button-text {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: white;
+    background-color: #4d5ae5;
+    height: 56px;
+    width: 169px;
+}
+.s2 {
+    font-weight: regular;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    height: 344px;
+    width: 1440px;
+}
+.s2 > ul{
+    width: 1128px;
+    height: 104px;
+}
+.s2 > li{
+    width: 264px;
+    height: 104px;
+}
+.s3 {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    background-color: #f4f4fd;
+    height: 732px;
+    width: 1440px;
+}
+.s3 > h2{
+    height: 162px;
+    width: 380px;
+}
+.s3>li{
+    width: 264px;
+    height: 380px;
+}
+.s4 {
+    width: 1240px;
+    height: 1440px;
+}
+.s4>h2{
+    width: 218px;
+    height: 40px;
+}
+.row1,
+.row2 {
+    width: 1128px;
+    height: 420px;
+}
+.row1>li{
+    height: 360px;
+    width: 420px;
+}
+.row2>li {
+    height: 360px;
+    width: 420px;
+}
+footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  color: #f4f4fd;
+}
