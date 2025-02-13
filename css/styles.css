@@ -1,7 +1,11 @@
 * {
     text-decoration: none;
 }
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 h1 {
     font-family: 'Roboto', cursive;
     font-weight: bold;
@@ -137,5 +141,5 @@ footer {
 }
 footer>div{
     width:264px;
-        height: 112px;
+    height: 112px;
 }
