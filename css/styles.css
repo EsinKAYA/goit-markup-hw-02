@@ -105,28 +105,29 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-
-.s4 {
-  width: 1240px;
-  height: 1440px;
+.team{
+  background-color: #ffffff;
 }
-.s4 > h2 {
-  width: 218px;
-  height: 40px;
+.person{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.person-parag{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.portfolio{
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
-}
-.row1,
-.row2 {
-  width: 1128px;
-  height: 420px;
-}
-.row1 > li {
-  height: 360px;
-  width: 420px;
-}
-.row2 > li {
-  height: 360px;
-  width: 420px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 footer {
   background-color: #2e2f42;
