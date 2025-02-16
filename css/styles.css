@@ -101,23 +101,23 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team{
+.team {
   background-color: #ffffff;
 }
-.person{
+.person {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.person-parag{
+.person-parag {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.portfolio{
+.portfolio {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -125,23 +125,23 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.row-title{
+.row-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:#2e2f42
+  color: #2e2f42;
 }
-.row-parag{
+.row-parag {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#434455;
+  color: #434455;
 }
 .footer {
   background-color: #2e2f42;
 }
-.footer-parag{
+.footer-parag {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
