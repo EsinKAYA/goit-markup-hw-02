@@ -31,13 +31,14 @@ h3 {
 }
 
 body {
-    font-family: "Roboto", cursive;
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    background-color: #ffffff;
     font-weight: regular;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
-    width: 1440px;
-    height: 3300px;
+    
 }
 header {
     display: flex;
