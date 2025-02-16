@@ -1,136 +1,141 @@
 * {
-    text-decoration: none;
-}
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-h1 {
-    font-family: 'Roboto', cursive;
-    font-weight: bold;
-    font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
-    text-align: center;
+  text-decoration: none;
 }
 
-h2 {
-    font-family: 'Roboto', cursive;
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 2%;
-    text-align: center;
-}
-
-h3 {
-    font-family: 'Roboto', cursive;
-    font-weight: medium;
-    font-size: 20px;
-    letter-spacing: 2%;
-}
 
 body {
-    font-family: "Roboto", sans-serif;
-    color:#434455;
-    background-color: #ffffff;
-    font-weight: regular;
-
-    
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    width: 1440px;
-    height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 1440px;
+  height: 72px;
+}
+.logo-1{
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing:0.003;
+    text-transform:uppercase;
+    color: #4d5ae5;
+}
+.logo-span-1{
+    color:#2e2f42
+}
+.studio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+}
+.studio:hover{
+    color:#404bbf;
+}
+.studio:focus{
+    color: #404bbf;
+} 
+.contacts{
+    font-style:normal;
+}
+.contacts-a{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contacts-a:hover{
+    color:#404bbf;
+}
+.contacts-a:focus{
+    color: #404bbf;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section-1 {
+  background-color: #2e2f42;
+  color: white;
 }
-
-ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-}
-.s1 {
-    width: 1440px;
-    height: 600px;
-    background-color: #2e2f42;
-    color: white;
+.title-1{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:#ffffff;
 }
 .button-text {
-    font-weight: medium;
+  background-color: #4D5AE5;
+  font-family:"Robotto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.5;
+  letter-spacing: 0.04em;
+  color:#ffffff;
+  cursor: pointer;
+}
+.button-text:hover{
+    background-color: #404BBF;
+}
+.button-text:focus{
+    background-attachment:#404BBF;
+}
+.sec2-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:#2e2f42;
+}
+.sec2-parag{
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
-    color: white;
-    background-color: #4d5ae5;
-    height: 56px;
-    width: 169px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+.section-3 {
+  background-color: #f4f4fd;
+
+}
+.sec3-h2{
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
 }
-.s2 {
-    font-weight: regular;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 4%;
-    height: 344px;
-    width: 1440px;
-}
-.s2 > ul{
-    width: 1128px;
-    height: 104px;
-}
-.s2 > li{
-    width: 264px;
-    height: 104px;
-}
-.s3 {
-    font-weight: medium;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    background-color: #f4f4fd;
-    height: 732px;
-    width: 1440px;
-}
-.s3 > h2{
-    height: 162px;
-    width: 380px;
-    text-align: center;
-}
-.s3>li{
-    width: 264px;
-    height: 380px;
-}
+
 .s4 {
-    width: 1240px;
-    height: 1440px;
+  width: 1240px;
+  height: 1440px;
 }
-.s4>h2{
-    width: 218px;
-    height: 40px;
-    text-align: center;
+.s4 > h2 {
+  width: 218px;
+  height: 40px;
+  text-align: center;
 }
 .row1,
 .row2 {
-    width: 1128px;
-    height: 420px;
+  width: 1128px;
+  height: 420px;
 }
-.row1>li{
-    height: 360px;
-    width: 420px;
+.row1 > li {
+  height: 360px;
+  width: 420px;
 }
-.row2>li {
-    height: 360px;
-    width: 420px;
+.row2 > li {
+  height: 360px;
+  width: 420px;
 }
 footer {
   background-color: #2e2f42;
@@ -138,7 +143,7 @@ footer {
   height: 312px;
   color: #f4f4fd;
 }
-footer>div{
-    width:264px;
-    height: 112px;
+footer > div {
+  width: 264px;
+  height: 112px;
 }
