@@ -1,7 +1,3 @@
-* {
-  text-decoration: none;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -142,13 +138,11 @@ body {
   letter-spacing: 0.02em;
   color:#434455;
 }
-footer {
+.footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
-  color: #f4f4fd;
 }
-footer > div {
-  width: 264px;
-  height: 112px;
+.footer-parag{
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
